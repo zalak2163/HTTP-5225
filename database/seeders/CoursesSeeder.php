@@ -13,6 +13,7 @@ class CoursesSeeder extends Seeder
      */
     public function run(): void
     {
-        Courses::factory(50)->create();  // Use 'Courses' model, not 'Course'
+        Courses::factory(50)->create();  
+        
     }
 }

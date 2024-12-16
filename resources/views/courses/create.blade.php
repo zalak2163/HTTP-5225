@@ -27,6 +27,3 @@
     </div>
 </div>
 @endsection
-'Coursename',
-        'Coursenumber',
-        'Coursefeculty', 

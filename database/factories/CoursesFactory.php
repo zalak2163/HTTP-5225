@@ -20,6 +20,7 @@ class CoursesFactory extends Factory
             'Coursename' => fake()->word(),  
             'Coursenumber' => fake()->unique()->numerify('C-###'),  
             'Coursefeculty' => fake()->word(),  
+            'faculty_id' => fake()->numberBetween(0,3)
         ];
     }
 }

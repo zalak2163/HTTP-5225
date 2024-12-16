@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('Coursename');       
             $table->string('Coursenumber')->unique();  
-            $table->string('Coursefeculty');    
+            $table->string('Coursefeculty');
+            $table->integer('faculty_id')->unsigned();      
             $table->timestamps();              
         });
     }
